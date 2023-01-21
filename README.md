@@ -16,4 +16,5 @@ $ git branch - megmutatja az ágakat, ellenőrzés céljából mégegyszer megn�
 $ git status - mégegy ellenőrzés.
 $ git remote add origin projectlink - távoli gyűjtemény megadása.
 $ git push -u origin main - push-sal feltöltöm a munkámat ( a fő ágamat) a távoli repositoryba, az az a Githubra.
-$ git push console - feltöltöm a console branchet is a távoli repositoryba.
+$ git checkout console - visszaváltás a console branchre.
+$ git push -u origin console - feltöltöm a console branchet is a távoli repositoryba.
